@@ -624,12 +624,6 @@ public class CertInstallerActivity extends Activity implements OnClickListener,
 	 */
 	public void onSharedPreferenceChanged(SharedPreferences sharedPreferences,
 			String key) {
-		Log.d(TAG, "AAAAAAAAAAAAAAAAAAAAAAAA");
-		Log.d(TAG, "AAAAAAAAAAAAAAAAAAAAAAAA");
-		Log.d(TAG, "AAAAAAAAAAAAAAAAAAAAAAAA");
-		Log.d(TAG, "AAAAAAAAAAAAAAAAAAAAAAAA");
-		Log.d(TAG, "AAAAAAAAAAAAAAAAAAAAAAAA");
-		// Not sure why this doesn't work
 		if (key.equals(CertUtils.PREF_AUTO_LOAD)
 				&& sharedPreferences
 						.getBoolean(CertUtils.PREF_AUTO_LOAD, false)) {
