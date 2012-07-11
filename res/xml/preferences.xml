@@ -1,0 +1,32 @@
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+            android:title="@string/pref_title">
+
+        <CheckBoxPreference
+                android:key="pref_auto_load"
+                android:title="@string/auto_load_pref"
+                android:summary="@string/auto_load_long" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+            android:title="@string/proxy_title">
+
+        <EditTextPreference
+                android:key="pref_proxy_ip"
+                android:title="@string/proxy_ip_pref_title"
+                android:summary="@string/proxy_ip_pref_summary"
+                 />
+
+        <EditTextPreference
+                android:key="pref_proxy_port"
+                android:title="@string/proxy_port_pref_title"
+                android:summary="@string/proxy_port_pref_summary"
+                 />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FS Cert Installer</string>
+    <string name="url_header">Application URL Information</string>
+    <string name="urltext">URL ex. google.com:</string>
+    <string name="proxyinfotext">Proxy Info</string>
+    <string name="proxyiptext">IP ex. 192.168.1.130:</string>
+    <string name="proxyporttext">Port ex. 8080:</string>
+    <string name="ca_cert_installed">CA Certificate installed?</string>
+    <string name="cert_no">No</string>
+    <string name="site_cert_installed">Site Certificate installed?</string>
+    <string name="full_cert_installed">Full Certificate chain working?</string>
+    <string name="test_cert_chain">Test Certificate Chain</string>
+    <string name="install_ca_cert">Install CA Certificate</string>
+    <string name="install_site_cert">Install Site Certificate</string>
+    <string name="pref_title">FS Cert Installer Preferences</string>
+    <string name="auto_load_pref">Auto load settings?</string>
+    <string name="proxy_pref">Proxy Settings</string>
+    <string name="auto_load_long">Auto load the settings</string>
+    <string name="proxy_title">Proxy Settings</string>
+    <string name="proxy_ip_pref_title">IP Address:</string>
+	<string name="proxy_ip_pref_summary">The proxy IP address to be used</string>
+    <string name="proxy_port_pref_title">Port:</string>
+	<string name="proxy_port_pref_summary">The proxy port address to be used</string>
+	<string name="about">About</string>
+	<string name="settings">Settings</string>
+    
+</resources>
