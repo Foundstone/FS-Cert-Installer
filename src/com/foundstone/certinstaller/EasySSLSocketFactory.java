@@ -37,15 +37,10 @@ import org.apache.http.params.HttpParams;
 
 import com.foundstone.certinstaller.EasyX509TrustManager.OnCertsRecievedListener;
 
-
 /**
  * This socket factory will create ssl socket that accepts self signed
  * certificate
  * 
- * @author olamy
- * @version $Id: EasySSLSocketFactory.java 765355 2009-04-15 20:59:07Z evenisse
- *          $
- * @since 1.2.3
  */
 public class EasySSLSocketFactory implements SocketFactory,
 		LayeredSocketFactory {

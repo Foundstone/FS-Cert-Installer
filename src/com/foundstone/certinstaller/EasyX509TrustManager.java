@@ -30,10 +30,7 @@ import javax.net.ssl.TrustManagerFactory;
 import javax.net.ssl.X509TrustManager;
 
 /**
- * @author olamy
- * @version $Id: EasyX509TrustManager.java 765355 2009-04-15 20:59:07Z evenisse
- *          $
- * @since 1.2.3
+ * Trust manager to go with the SSL socket factory to accept all certificates.
  */
 public class EasyX509TrustManager implements X509TrustManager {
 
