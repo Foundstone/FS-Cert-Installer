@@ -275,7 +275,6 @@
               </zipalign>
               <manifest>
                 <debuggable>false</debuggable>
-                <versionCodeAutoIncrement>true</versionCodeAutoIncrement>
               </manifest>
               <proguard>
                 <!-- Skipping this for now -->
