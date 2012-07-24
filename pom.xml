@@ -144,10 +144,10 @@
                   <includes>
                     <include>${project.build.directory}/${project.artifactId}.apk</include>
                   </includes>
-                  <keystore>${sign.keystore}</keystore>
-                  <alias>${sign.alias}</alias>
-                  <storepass>${sign.storepass}</storepass>
-                  <keypass>${sign.keypass}</keypass>
+                  <keystore>${env.FOUNDSTONE_KEYSTORE}</keystore>
+                  <alias>${env.FOUNDSTONE_KEYSTORE_ALIAS}</alias>
+                  <storepass>${env.FOUNDSTONE_KEYSTORE_PASS}</storepass>
+                  <keypass>${env.FOUNDSTONE_KEYSTORE_PASS}</keypass>
                   <verbose>true</verbose>
                 </configuration>
               </execution>
