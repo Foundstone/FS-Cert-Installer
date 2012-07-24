@@ -23,7 +23,7 @@
     <uses-sdk android:minSdkVersion="14"/>
     <uses-permission android:name="android.permission.INTERNET"/>
 
-    <application android:icon="@drawable/fs_icon" android:label="@string/app_name">
+    <application android:debuggable="true" android:icon="@drawable/fs_icon" android:label="@string/app_name">
         <activity android:label="@string/app_name" android:name="com.foundstone.certinstaller.CertInstallerActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
