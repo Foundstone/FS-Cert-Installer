@@ -98,7 +98,7 @@ public class CertInstallerActivity extends Activity implements OnClickListener,
 		super.onCreate(savedInstanceState);
 		Log.d(TAG, "FS Cert Installer starting...");
 
-		setContentView(R.layout.main);
+		setContentView(R.layout.start);
 
 		final SharedPreferences sharedPrefs = CertUtils
 				.getSharedPreferences(this);
