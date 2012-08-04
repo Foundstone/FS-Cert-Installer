@@ -298,6 +298,11 @@ public class CertInstallerActivity extends Activity implements OnClickListener,
 					Toast.LENGTH_SHORT).show();
 			Log.d(TAG, "URL is not set");
 			return;
+		} else if (TextUtils.isEmpty(proxyIP)) {
+			Toast.makeText(getApplicationContext(), "Port is not set",
+					Toast.LENGTH_SHORT).show();
+			Log.d(TAG, "Port is not set");
+			return;
 		}
 
 		if (caCert == null) {
@@ -340,6 +345,11 @@ public class CertInstallerActivity extends Activity implements OnClickListener,
 			Toast.makeText(getApplicationContext(), "URL is not set",
 					Toast.LENGTH_SHORT).show();
 			Log.d(TAG, "URL was not set");
+			return;
+		} else if (TextUtils.isEmpty(proxyIP)) {
+			Toast.makeText(getApplicationContext(), "Port is not set",
+					Toast.LENGTH_SHORT).show();
+			Log.d(TAG, "Port is not set");
 			return;
 		}
 		if (siteCert == null) {
